@@ -397,14 +397,15 @@ ul {
 #sub_nav {
     background:#f9000000;
     border: none;
-    top: 120px;
+
  
 }
 #customQ_nav {
     clear:both;
     line-height:26px;
     position: relative;
-   
+  
+
 }
 
 #sub_nav > ul {
@@ -425,7 +426,7 @@ ul {
     border-top-left-radius: 6px;
     margin:0 2px;
     width: 100%;
-    background-color: #123e32;
+    
 }
 
 #sub_nav > li > a,
@@ -434,9 +435,10 @@ ul {
     padding:0 10px 0 21px;
     background-position:0 50%;
     background-repeat:no-repeat;
-    color:#ffffff;
+    color:#000000;
     width: 100%;
-    background-color: #123e32;
+    height: 100%;
+
 }
 
 #customQ_nav .jb-overflowmenu-menu-primary li.item:hover {
@@ -1024,7 +1026,7 @@ ul {
 
 a.test  { background-image:url(../images/icons/open.gif) }
 
-a.Ticket { background:url(../images/icons/open_tickets.gif) }
+ #sub_nav a.Ticket{ background:url(../images/icons/open_tickets.gif); background-repeat: no-repeat; }
 a.assignedTickets { background:url(../images/icons/assigned_tickets.gif) }
 a.overdueTickets { background:url(../images/icons/overdue_tickets.gif) }
 a.answeredTickets { background:url(../images/icons/answered_tickets.gif) }
@@ -1034,18 +1036,18 @@ a.newTicket { background:url(../images/icons/new_ticket.gif) }
 a.premade { background:url(../images/icons/premade_reply.gif) }
 a.newPremade { background:url(../images/icons/new_premade_reply.gif) }
 
-a.kb { background:url(../images/icons/kb.gif) }
-a.faq-categories { background:url(../images/icons/faq-categories.gif) }
-a.canned { background:url(../images/icons/canned.gif) }
+a.kb { background:url(../images/icons/kbs.gif) }
+a.faq-categories { background:url(../images/icons/faq-categoriess.gif) }
+a.canned { background:url(../images/icons/canneds.gif) }
 
 a.staff { background:url(../images/icons/list_groups.gif) }
 a.user { background:url(../images/icons/list_users.gif) }
-a.userPref { background:url(../images/icons/user_preferences.gif) }
+a.userPref { background:url(../images/icons/usr_preferences.gif) }
 a.userPasswd { background:url(../images/icons/change_password.gif) }
 
 a.preferences { background:url(../images/icons/settings.gif) }
 a.api { background:url(../images/icons/api.png) }
-a.newapi { background:url(../images/icons/new_api.png) }
+a.newapi { background:url(../images/icons/new_spi.png) }
 
 a.ticket-settings { background:url(../images/icons/ticket-settings.gif) }
 a.email-settings { background:url(../images/icons/email-settings.gif) }
@@ -1057,7 +1059,7 @@ a.email-autoresponders { background:url(../images/icons/email-autoresponders.gif
 a.sla { background:url(../images/icons/slas.png) }
 a.newsla { background:url(../images/icons/new_sla.png) }
 
-a.logs { background:url(../images/icons/logs.gif) }
+a.logs { background:url(../images/icons/logss.gif) }
 
 a.emails { background:url(../images/icons/emails.png) }
 a.newEmail { background:url(../images/icons/new_email.png) }
@@ -1073,16 +1075,16 @@ a.emailSettings { background:url(../images/icons/emails.png) }
 a.emailDiagnostic { background:url(../images/icons/email_diagnostic.gif) }
 a.banList { background:url(../images/icons/ban_list.gif) }
 
-a.users { background:url(../images/icons/user.gif) }
+a.users { background:url(../images/icons/users.gif) }
 a.newuser { background:url(../images/icons/new_user.gif) }
 a.groups { background:url(../images/icons/list_groups.gif) }
-a.teams { background:url(../images/icons/teams.gif) }
+a.teams { background:url(../images/icons/team.gisf) }
 a.newgroup { background:url(../images/icons/new_group.gif) }
 
 a.helpTopics { background:url(../images/icons/help_topics.png) }
 a.newHelpTopic { background:url(../images/icons/new_help_topic.png) }
 
-a.departments { background:url(../images/icons/list_departments.gif) }
+a.departments { background:url(../images/icons/list_departmsent.gif) }
 a.newDepartment { background:url(../images/icons/new_department.gif) }
 
 
@@ -3424,12 +3426,7 @@ td.indented {
         width: auto;
         
     }
-    #sub_nav {
-        background:#f9000000;
-        border: none;
-        top: 120px;
-     
-    }
+   
     #info{
         position: relative;
     

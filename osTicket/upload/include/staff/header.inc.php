@@ -114,9 +114,7 @@ if (osTicket::is_ie())
 
          
             <?php include STAFFINC_DIR . "templates/navigation.tmpl.php"; ?>
-            </ul>
-           
-            <ul id="nav">
+        
             <?php include STAFFINC_DIR . "templates/sub-navigation.tmpl.php"; ?>
         </ul>
 
